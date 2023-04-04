@@ -15,7 +15,11 @@ import lombok.Data;
 @Data
 public class User implements Serializable {
 
+    /**
+    * 这是新增的一个字段
+    */
     private  Integer iid;
+    
     /**
      * 主键ID
      */
