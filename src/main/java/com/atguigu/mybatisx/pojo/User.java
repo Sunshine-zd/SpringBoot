@@ -14,6 +14,8 @@ import lombok.Data;
 @TableName(value ="user")
 @Data
 public class User implements Serializable {
+
+    private  Integer iid;
     /**
      * 主键ID
      */
